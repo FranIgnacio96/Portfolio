@@ -186,7 +186,7 @@
       </div>
 
 
-      <!--  <form class="formulario" action="" method="POST">
+      <form class="formulario" action="" method="POST">
         <fieldset>
           <legend>Contactame llenando todos los campos</legend>
           <div class="contenedor-campos">
@@ -214,7 +214,7 @@
             <input class="boton" type="submit" value="Enviar" name="send" />
           </div>
         </fieldset>
-      </form>  -->
+      </form> 
     </section>
 
   </main>
