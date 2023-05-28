@@ -32,7 +32,7 @@ body {
   margin-left: var(--width-collapsed);
 }
 .body-expanded {
-  position: relative;
+  margin-left: var(--width);
 }
 .transition{
   -webkit-transition: all 0.5s ease-in-out;
