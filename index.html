@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página web de Portafolio personal" />
+  <!--Posicionamiento-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="preload"
+    as="font" crossorigin="crossorigin" />
+  <!--preload-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="img/favicon/site.webmanifest" />
+  <title>Portfolio FMelidoni</title>
+
+  <link rel="preload" href="styles/normalize.css" />
+  <link rel="preload" href="styles/style.css" />
+  <link rel="preload" href="styles/sidemenu.css" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/sidemenu.css" />
+</head>
+
+<body class="transition">
+  <header class="header">
+    <div class="side-menu menu-collapsed ">
+      <div class="head ">
+        <div class="title">Menú</div>
+        <div class="menu-btn">
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+        </div>
+      </div>
+
+
+      <div class="profile ">
+        <div class="foto "><img src="img/foto.jpeg" alt=""></div>
+        <div class="name "><span>Franco Melidoni</span></div>
+      </div>
+
+      <div class="menu-items ">
+        <div class="item">
+          <a href="#servicios">
+            <div class="icon"><img src="img/servicios.svg" alt=""></div>
+            <div class="title"><span>Servicios</span></div>
+          </a>
+          <a href="#proyectos">
+            <div class="icon"><img src="img/proyectos.svg" alt=""></div>
+            <div class="title"><span>Proyectos</span></div>
+          </a>
+          <a href="#contacto">
+            <div class="icon"><img src="img/contacto.svg" alt=""></div>
+            <div class="title"><span>Contacto</span></div>
+          </a>
+        </div>
+      </div>
+    </div>  <!--  SideBar  -->
+
+    <div class="titulo contenedor">
+      <h1>Hola! Soy Franco,<br> desarrollador web ;)</h1>
+      <h2>Encantado!</h2>
+    </div>
+  </header>
+  <main class="main contenedor">
+    <h2 id="servicios" class="reveal">Mis Servicios</h2>
+
+    <div class="servicios">
+      <section class="servicio reveal">
+        <h3>Front-End</h3>
+        <div class="icono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="92"
+            height="92" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+            <path d="M7.5 8h3v8l-2 -1" />
+            <path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+          </svg>
+        </div>
+
+        <p class="reveal">
+          Utilización de tecnologías para el Front-End como HTML, CSS, y
+          Javascript.
+        </p>
+      </section>
+
+      <section class="servicio reveal">
+        <h3>Back-End</h3>
+        <div class="icono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-php" width="92" height="92"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 12m-10 0a10 9 0 1 0 20 0a10 9 0 1 0 -20 0" />
+            <path d="M5.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
+            <path d="M15.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
+            <path d="M12 7.5l-1 5.5" />
+            <path d="M11.6 10h2.4l-.5 3" />
+          </svg>
+        </div>
+        <p class="reveal">Desarrollo de Back-End con PHP, Python y Javascript.</p>
+      </section>
+
+      <section class="servicio reveal">
+        <h3>Bases de Datos</h3>
+        <div class="icono">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mysql" width="92"
+            height="92" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M13 21c-1.427 -1.026 -3.59 -3.854 -4 -6c-.486 .77 -1.501 2 -2 2c-1.499 -.888 -.574 -3.973 0 -6c-1.596 -1.433 -2.468 -2.458 -2.5 -4c-3.35 -3.44 -.444 -5.27 2.5 -3h1c8.482 .5 6.421 8.07 9 11.5c2.295 .522 3.665 2.254 5 3.5c-2.086 -.2 -2.784 -.344 -3.5 0c.478 1.64 2.123 2.2 3.5 3" />
+            <path d="M9 7h.01" />
+          </svg>
+        </div>
+        <p class="reveal">
+          Manejo y administración de Bases de datos MySQL con Apache,
+          TablePlus y DBeaver.
+        </p>
+      </section>
+    </div>
+    <!--   Servicios   -->
+
+
+    <div class="proyectos reveal">
+      <h2 id="proyectos" class="">Mis Proyectos</h2>
+      <section class="proyecto reveal">
+        <h3>Bienes Raíces</h3>
+        <div class="proyecto-imagen">
+          <a href="https://celadon-bublanina-5bc8b4.netlify.app/">
+            <img src="img/Example.png" alt="Imagen Bienes Raices">
+          </a>
+        </div>
+      </section>
+      <section class="proyecto reveal">
+        <h3>Blog Café</h3>
+        <div class="proyecto-imagen">
+          <a href="https://bucolic-melomakarona-e54e1b.netlify.app/">
+            <img src="img/Example2.png" alt="Imagen Blog Café">
+          </a>
+        </div>
+      </section>
+
+      <section class="proyecto reveal">
+        <h3>FrontEnd Store</h3>
+        <div class="proyecto-imagen">
+          <a href="https://regal-manatee-f05d7e.netlify.app/">
+            <img src="img/Example3.png" alt="Imagen FrontEnd Store">
+          </a>
+        </div>
+      </section>
+      <section class="proyecto row reveal">
+        <h3>GDLWEBCAMP</h3>
+        <div class="proyecto-imagen">
+          <a href="https://stunning-sundae-9d66c7.netlify.app/">
+            <img src="img/Example4.png" alt="Imagen GDLWEBCAMP">
+          </a>
+        </div>
+      </section>
+    </div> <!-- Proyectos -->
+
+    <section class="contacto ">
+
+      <h2 id="contacto">Contacto</h2>
+      <div class="redes">
+        <a href="https://github.com/FranIgnacio96" target="_blank">
+          <img src="img/github.svg" alt="" >
+        </a>
+        <a href="http://https://www.linkedin.com/in/franco-melidoni" target="_blank">
+          <img src="img/linkedin.svg" alt="" >
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=541151783199&text=Hola!" target="_blank">
+          <img src="img/whatsapp.svg" alt="">
+        </a>
+        <a href="mailto:fran96meli@gmail.com" target="_blank">
+          <img src="img/mail-fast.svg" alt="">
+        </a>
+
+      </div>
+
+
+      <!--  <form class="formulario" action="" method="POST">
+        <fieldset>
+          <legend>Contactame llenando todos los campos</legend>
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input class="input-text" type="text" placeholder="Tu Nombre" id="nombre" required="" name="nombre" />
+            </div>
+
+            <div class="campo">
+              <label for="tel">Teléfono</label>
+              <input class="input-text" type="tel" placeholder="Tu teléfono" id="tel" required="" name="telefono" />
+            </div>
+
+            <div class="campo">
+              <label for="email">Correo</label>
+              <input class="input-text" type="email" placeholder="Tu Email" id="email" required="" name="email" />
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="input-text" name="mensaje" id="mensaje"></textarea>
+            </div>
+          </div>
+          <div class="enviar">
+            <input class="boton" type="submit" value="Enviar" name="send" />
+          </div>
+        </fieldset>
+      </form>  -->
+    </section>
+
+  </main>
+  <script src="js/scrypt.js"></script>
+</body>
+
+
+</html>
+<?php
+require 'contacto.php';
+
+
+?>
